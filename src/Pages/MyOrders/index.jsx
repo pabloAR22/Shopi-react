@@ -1,12 +1,10 @@
-
-// eslint-disable-next-line no-unused-vars
-import React from 'react'
+import Layout from "../../components/Layout"
 
 function MyOrders() {
   return (
-      <div className='bg-amber-950'>
+      <Layout>
         MyOrders
-      </div> 
+      </Layout> 
   )
 }
 export default MyOrders
