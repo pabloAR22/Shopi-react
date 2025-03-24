@@ -10,6 +10,7 @@ import MyOrders from '../MyOrders'
 import NotFound from '../NotFound'
 import SignIn from '../SignIn'
 import Navbar from '../../components/NavBar'
+import CheckoutSideMenu from '../../components/CheckoutSideMenu'
 
 import './App.css'
 
@@ -31,6 +32,7 @@ function App() {
       <BrowserRouter>
         <AppRoutes />
         <Navbar></Navbar>
+        <CheckoutSideMenu />
       </BrowserRouter>
     </ShoppingCartProvider>
   )
